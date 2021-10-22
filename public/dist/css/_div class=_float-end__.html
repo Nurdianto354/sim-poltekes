@@ -1,0 +1,89 @@
+<div class="float-end">       
+    <div class="input-group mb-3">
+        <a href=" {{ url('admin') }} " class="btn btn-sm btn-outline-dark">Reset</a>
+        <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-coreui-toggle="dropdown" aria-expanded="false">Nama</button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li>
+            <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+        <input class="form-control form-control-sm" type="text" aria-label="Text input with dropdown button"> 
+        <button class="btn btn-sm btn-outline-primary cil cil-search" type="submit"> <i class="cil cil-search"></i> </button>
+    </div>   
+</div>  
+
+<div class="card mb-4">  
+    <div class="card-header bg-white"> DAFTAR PEGAWAI 
+        <div class="float-end">   
+            <a href=" {{ url('admin') }} " class="btn btn-sm btn-outline-dark">Reset Filter</a>   
+            <a href=" {{ url('admin') }} " class="btn btn-sm btn-outline-primary">Filter Pegawai</a>   
+            <a href=" {{ url('admin') }} " class="btn btn-sm btn-outline-primary">Tambah Pegawai</a>   
+        </div> 
+    </div>
+    <div class="card-body">
+    <div class="example"> 
+        <div class="tab-content rounded-bottom">
+        <div class="tab-pane p-3 active preview" role="tabpanel" id="preview-1245">
+            <table class="table table-striped table-hover">
+            <thead>
+                <tr style="background-color:darkgray;">
+                <th scope="col">No</th>
+                <th scope="col">NIP</th>
+                <th scope="col">Nama</th>
+                <th scope="col">Unit Kerja</th>
+                <th scope="col">Sub Jurusan</th>
+                <th scope="col">Golongan</th>
+                <th scope="col">Status</th>
+                <th scope="col">Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">1</th>
+                <td>123456789012</td>
+                <td>Fulan bin Fulan</td>
+                <td>Jurusan Keperawatan</td>
+                <td>Prodi D3 Keperawatan Kampus Soetomo</td>
+                <td> - </td>
+                <td>AFK</td>
+                <td>
+                    <a href=" {{ url('admin') }} " title="Tampilkan"  style="text-decoration:none"> <i class="material-icons" style="color:blue"> visibility </i></a> &emsp;  
+                    <a href=" {{ url('admin') }} " title="Hapus" style="text-decoration:none">  <i class="material-icons" style="color: red"> delete </i></a>   
+                </td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>123456789012</td>
+                    <td>Fulan bin Fulan</td>
+                    <td>Jurusan Keperawatan</td>
+                    <td>Prodi D3 Keperawatan Kampus Soetomo</td>
+                    <td> - </td>
+                    <td>AFK</td>
+                    <td>
+                    <a href=" {{ url('admin') }} " title="Tampilkan"  style="text-decoration:none"> <i class="material-icons" style="color:blue"> visibility </i></a> &emsp;  
+                    <a href=" {{ url('admin') }} " title="Hapus" style="text-decoration:none">  <i class="material-icons" style="color: red"> delete </i></a>   
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>123456789012</td>
+                    <td>Fulan bin Fulan</td>
+                    <td>Jurusan Keperawatan</td>
+                    <td>Prodi D3 Keperawatan Kampus Soetomo</td>
+                    <td> - </td>
+                    <td>AFK</td>
+                    <td>
+                    <a href=" {{ url('admin') }} " title="Tampilkan"  style="text-decoration:none"> <i class="material-icons" style="color:blue"> visibility </i></a> &emsp;  
+                    <a href=" {{ url('admin') }} " title="Hapus" style="text-decoration:none">  <i class="material-icons" style="color: red"> delete </i></a>   
+                    </td>
+                </tr>                                  
+            </tbody>
+            </table>
+        </div> 
+        </div>
+    </div>
+</div>
